@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>test</title>
-    <url>/2021/03/06/test/</url>
-    <content><![CDATA[<p><img src="/2021/03/06/test/image-20210306151927206.png" alt="image-20210306151927206"></p>
-]]></content>
-  </entry>
-  <entry>
     <title>GitHub Pages+Hexo+NexT 个人博客搭建</title>
     <url>/2021/03/06/gitpage-hexo-next%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</url>
     <content><![CDATA[<p>这篇文章将分享一个从零开始的自建个人博客网站的过程。</p>
@@ -24,7 +18,7 @@
 <h3 id="为什么是Hexo？"><a href="#为什么是Hexo？" class="headerlink" title="为什么是Hexo？"></a>为什么是Hexo？</h3><p>正如Hexo官网所介绍的，Hexo是一个快速、简洁且高效的博客框架，高度符合我的需求。</p>
 <h3 id="为什么是NexT？"><a href="#为什么是NexT？" class="headerlink" title="为什么是NexT？"></a>为什么是NexT？</h3><p>主题这种东西就是仁者见仁智者见智的了。NexT精致简约，符合我的审美。</p>
 <h1 id="从零开始"><a href="#从零开始" class="headerlink" title="从零开始"></a>从零开始</h1><h2 id="GitHub-Pages"><a href="#GitHub-Pages" class="headerlink" title="GitHub Pages"></a>GitHub Pages</h2><h3 id="注册GitHub账号"><a href="#注册GitHub账号" class="headerlink" title="注册GitHub账号"></a>注册GitHub账号</h3><p>想要使用GitHub Pages，首先当然是要得有一个GitHub账号了。</p>
-<p><img src="/image-20210306134651714.png" alt="image-20210306134651714"></p>
+<p><img src="/2021/03/06/gitpage-hexo-next%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/image-20210306134651714.png" alt="image-20210306134651714"></p>
 ]]></content>
       <categories>
         <category>技术分享</category>
@@ -35,5 +29,11 @@
         <tag>Hexo</tag>
         <tag>NexT</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>test</title>
+    <url>/2021/03/06/test/</url>
+    <content><![CDATA[<p><img src="/2021/03/06/test/image-20210306151927206.png" alt="image-20210306151927206"></p>
+]]></content>
   </entry>
 </search>
