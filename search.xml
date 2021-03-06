@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>test</title>
+    <url>/2021/03/06/test/</url>
+    <content><![CDATA[<p><img src="/2021-03-06-test/image-20210306151927206.png" alt="image-20210306151927206"></p>
+]]></content>
+  </entry>
+  <entry>
     <title>GitHub Pages+Hexo+NexT 个人博客搭建</title>
     <url>/2021/03/06/gitpage-hexo-next%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</url>
     <content><![CDATA[<p>这篇文章将分享一个从零开始的自建个人博客网站的过程。</p>
@@ -29,11 +35,5 @@
         <tag>Hexo</tag>
         <tag>NexT</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>test</title>
-    <url>/2021/03/06/test/</url>
-    <content><![CDATA[<p><img src="/2021-03-06-test/image-20210306151927206.png" alt="image-20210306151927206"></p>
-]]></content>
   </entry>
 </search>
