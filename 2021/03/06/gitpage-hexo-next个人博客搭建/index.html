@@ -22,20 +22,20 @@
 
   <meta name="description" content="这篇文章将分享一个从零开始的自建个人博客网站的过程。">
 <meta property="og:type" content="article">
-<meta property="og:title" content="GitHub Pages+Hexo+NexT 个人博客搭建">
+<meta property="og:title" content="GitHub Pages + Hexo + NexT 个人博客搭建">
 <meta property="og:url" content="https://muzishuiyi.github.io/2021/03/06/gitpage-hexo-next%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/index.html">
 <meta property="og:site_name" content="木子水一">
 <meta property="og:description" content="这篇文章将分享一个从零开始的自建个人博客网站的过程。">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://muzishuiyi.github.io/2021/03/06/gitpage-hexo-next%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/image-20210306134651714.png">
+<meta property="og:image" content="https://muzishuiyi.github.io/2021-03-06-gitpage-hexo-next%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/image-20210306155928881.png">
 <meta property="article:published_time" content="2021-03-06T04:53:35.000Z">
-<meta property="article:modified_time" content="2021-03-06T07:43:49.621Z">
+<meta property="article:modified_time" content="2021-03-08T11:32:03.855Z">
 <meta property="article:author" content="Muzi">
 <meta property="article:tag" content="GitHub Page">
 <meta property="article:tag" content="Hexo">
 <meta property="article:tag" content="NexT">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://muzishuiyi.github.io/2021/03/06/gitpage-hexo-next%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/image-20210306134651714.png">
+<meta name="twitter:image" content="https://muzishuiyi.github.io/2021-03-06-gitpage-hexo-next%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/image-20210306155928881.png">
 
 <link rel="canonical" href="https://muzishuiyi.github.io/2021/03/06/gitpage-hexo-next%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/">
 
@@ -50,7 +50,7 @@
   };
 </script>
 
-  <title>GitHub Pages+Hexo+NexT 个人博客搭建 | 木子水一</title>
+  <title>GitHub Pages + Hexo + NexT 个人博客搭建 | 木子水一</title>
   
 
 
@@ -212,7 +212,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          GitHub Pages+Hexo+NexT 个人博客搭建
+          GitHub Pages + Hexo + NexT 个人博客搭建
         </h1>
 
         <div class="post-meta">
@@ -221,10 +221,16 @@
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
-              
 
-              <time title="创建时间：2021-03-06 12:53:35 / 修改时间：15:43:49" itemprop="dateCreated datePublished" datetime="2021-03-06T12:53:35+08:00">2021-03-06</time>
+              <time title="创建时间：2021-03-06 12:53:35" itemprop="dateCreated datePublished" datetime="2021-03-06T12:53:35+08:00">2021-03-06</time>
             </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2021-03-08 19:32:03" itemprop="dateModified" datetime="2021-03-08T19:32:03+08:00">2021-03-08</time>
+              </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="far fa-folder"></i>
@@ -255,17 +261,31 @@
 
 <h1 id="开始前的一些话"><a href="#开始前的一些话" class="headerlink" title="开始前的一些话"></a>开始前的一些话</h1><h2 id="为什么要建个人博客？"><a href="#为什么要建个人博客？" class="headerlink" title="为什么要建个人博客？"></a>为什么要建个人博客？</h2><p>让自己养成写博客的好习惯。</p>
 <p>记录一下自己的学习过程。</p>
-<h2 id="为什么选择自建"><a href="#为什么选择自建" class="headerlink" title="为什么选择自建?"></a>为什么选择自建?</h2><p>市面上虽然已经有了像简书、CSND、博客园等成熟的内容创作平台，但是我还是选择了自建个人博客。主要原因在于那些平台广告繁杂、还有太多我用不到的功能，每次我看到了都感到很厌烦。</p>
+<h2 id="为什么选择自建"><a href="#为什么选择自建" class="headerlink" title="为什么选择自建?"></a>为什么选择自建?</h2><p>市面上虽然已经有了像简书、 CSND 、博客园等成熟的内容创作平台，但是我还是选择了自建个人博客。主要原因在于那些平台广告繁杂、还有太多我用不到的功能，每次我看到了都感到很厌烦。</p>
 <p>我的要求很简单：方便写作、方便查找、看着舒服。</p>
 <p>因此我选择自建博客，仅加入我自己需要的功能，一切从简。</p>
-<h2 id="为什么选择这套技术方案？"><a href="#为什么选择这套技术方案？" class="headerlink" title="为什么选择这套技术方案？"></a>为什么选择这套技术方案？</h2><p>GitHub Pages技术平台，Hexo博客框架，NexT主题。</p>
-<h3 id="为什么是GitHub-Pages？"><a href="#为什么是GitHub-Pages？" class="headerlink" title="为什么是GitHub Pages？"></a>为什么是GitHub Pages？</h3><p><strong>免费</strong>、<strong>轻量级</strong>、<strong>支持Markdown</strong></p>
-<p>GitHub Pages可以免费使用，可以直接在上面部署，不需要自己去租用一台服务器。</p>
-<p>我本人习惯在本地用Markdown写一些记录，因此GitHub Pages恰好符合我的需求。</p>
-<h3 id="为什么是Hexo？"><a href="#为什么是Hexo？" class="headerlink" title="为什么是Hexo？"></a>为什么是Hexo？</h3><p>正如Hexo官网所介绍的，Hexo是一个快速、简洁且高效的博客框架，高度符合我的需求。</p>
-<h3 id="为什么是NexT？"><a href="#为什么是NexT？" class="headerlink" title="为什么是NexT？"></a>为什么是NexT？</h3><p>主题这种东西就是仁者见仁智者见智的了。NexT精致简约，符合我的审美。</p>
-<h1 id="从零开始"><a href="#从零开始" class="headerlink" title="从零开始"></a>从零开始</h1><h2 id="GitHub-Pages"><a href="#GitHub-Pages" class="headerlink" title="GitHub Pages"></a>GitHub Pages</h2><h3 id="注册GitHub账号"><a href="#注册GitHub账号" class="headerlink" title="注册GitHub账号"></a>注册GitHub账号</h3><p>想要使用GitHub Pages，首先当然是要得有一个GitHub账号了。</p>
-<p><img src="/2021/03/06/gitpage-hexo-next%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/image-20210306134651714.png" alt="image-20210306134651714"></p>
+<h2 id="为什么选择这套技术方案？"><a href="#为什么选择这套技术方案？" class="headerlink" title="为什么选择这套技术方案？"></a>为什么选择这套技术方案？</h2><p>GitHub Pages 技术平台， Hexo 博客框架， NexT 主题。</p>
+<h3 id="为什么是-GitHub-Pages-？"><a href="#为什么是-GitHub-Pages-？" class="headerlink" title="为什么是 GitHub Pages ？"></a>为什么是 GitHub Pages ？</h3><p><strong>免费</strong>、<strong>轻量级</strong>、<strong>支持 Markdown</strong></p>
+<p>GitHub Pages 可以免费使用，可以直接在上面部署，不需要自己去租用一台服务器。</p>
+<p>我本人习惯在本地用 Markdown 写一些记录，因此 GitHub Pages 恰好符合我的需求。</p>
+<h3 id="为什么是-Hexo-？"><a href="#为什么是-Hexo-？" class="headerlink" title="为什么是 Hexo ？"></a>为什么是 Hexo ？</h3><p>正如 Hexo 官网所介绍的， Hexo 是一个快速、简洁且高效的博客框架，高度符合我的需求。</p>
+<h3 id="为什么是NexT？"><a href="#为什么是NexT？" class="headerlink" title="为什么是NexT？"></a>为什么是NexT？</h3><p>主题这种东西就是仁者见仁智者见智的了。 NexT 精致简约，符合我的审美。</p>
+<h1 id="从零开始"><a href="#从零开始" class="headerlink" title="从零开始"></a>从零开始</h1><h2 id="GitHub-Pages"><a href="#GitHub-Pages" class="headerlink" title="GitHub Pages"></a>GitHub Pages</h2><h3 id="注册-GitHub-账号"><a href="#注册-GitHub-账号" class="headerlink" title="注册 GitHub 账号"></a>注册 GitHub 账号</h3><p>想要使用 GitHub Pages ，首先当然是要得有一个 GitHub 账号了。</p>
+<p>如果没有账号可以登录 <a target="_blank" rel="noopener" href="https://github.com/">GitHub</a> ，点击 Sign up ，注册一个新的账号。</p>
+<p><img src="/2021-03-06-gitpage-hexo-next%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/image-20210306155928881.png" alt="GitHub注册界面"></p>
+<h3 id="创建-GitHub-Pages"><a href="#创建-GitHub-Pages" class="headerlink" title="创建 GitHub Pages"></a>创建 GitHub Pages</h3><p>1.登录自己的 GitHub 账号。</p>
+<p>2.创建一个新的公开的仓库，将其命名为 <em>username.github.io</em> ，这里的 username 是你的用户名。（如果命名不符合上述规则，则无法正确部署）。</p>
+<p>3.通过 <em>username.github.io</em> 就可以访问你的网站了。</p>
+<p>详细信息可以访问<a target="_blank" rel="noopener" href="https://pages.github.com/">GitHub Pages</a>。</p>
+<h2 id="Hexo"><a href="#Hexo" class="headerlink" title="Hexo"></a>Hexo</h2><h3 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h3><p>根据<a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/">Hexo文档</a>配置环境并安装Hexo。</p>
+<h3 id="本地建站"><a href="#本地建站" class="headerlink" title="本地建站"></a>本地建站</h3><p>根据<a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/setup">Hexo建站文档</a>在本地建站。</p>
+<h2 id="NexT"><a href="#NexT" class="headerlink" title="NexT"></a>NexT</h2><h2 id="扩展"><a href="#扩展" class="headerlink" title="扩展"></a>扩展</h2><h3 id="文章中插入图片"><a href="#文章中插入图片" class="headerlink" title="文章中插入图片"></a>文章中插入图片</h3><h3 id="文章中插入数学公式"><a href="#文章中插入数学公式" class="headerlink" title="文章中插入数学公式"></a>文章中插入数学公式</h3><p>在使用Typora的过程中发现在本地通过<code>$$</code>插入的 Latex 公式无法在网页端正常显示，可以通过以下方式解决。</p>
+<p>①编辑 <strong>主题配置文件</strong>（*/themes/next/_config.yml*）， 将 <code>mathjax</code> 下的 <code>enable</code> 设定为 <code>true</code> 。</p>
+<p>②在文章的<code>Front-matter</code>中加入<code>mathjax: true</code>。</p>
+<p>例如：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: &quot;[LeetCode]21.合并两个有序链表&quot;</span><br><span class="line">date: 2021-03-08 18:46:16</span><br><span class="line">mathjax: true</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
+
+<p>完成上述配置即可在网页端正常显示 Latex 公式。</p>
 
     </div>
 
@@ -287,8 +307,8 @@
     <div class="post-nav">
       <div class="post-nav-item"></div>
       <div class="post-nav-item">
-    <a href="/2021/03/06/test/" rel="next" title="test">
-      test <i class="fa fa-chevron-right"></i>
+    <a href="/2021/03/06/Lustre%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/" rel="next" title="[论文阅读]Lustre: A Scalable, High-Performance File System">
+      [论文阅读]Lustre: A Scalable, High-Performance File System <i class="fa fa-chevron-right"></i>
     </a></div>
     </div>
       </footer>
@@ -348,7 +368,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%BC%80%E5%A7%8B%E5%89%8D%E7%9A%84%E4%B8%80%E4%BA%9B%E8%AF%9D"><span class="nav-number">1.</span> <span class="nav-text">开始前的一些话</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%9F"><span class="nav-number">1.1.</span> <span class="nav-text">为什么要建个人博客？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%BA%E4%BB%80%E4%B9%88%E9%80%89%E6%8B%A9%E8%87%AA%E5%BB%BA"><span class="nav-number">1.2.</span> <span class="nav-text">为什么选择自建?</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%BA%E4%BB%80%E4%B9%88%E9%80%89%E6%8B%A9%E8%BF%99%E5%A5%97%E6%8A%80%E6%9C%AF%E6%96%B9%E6%A1%88%EF%BC%9F"><span class="nav-number">1.3.</span> <span class="nav-text">为什么选择这套技术方案？</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%BA%E4%BB%80%E4%B9%88%E6%98%AFGitHub-Pages%EF%BC%9F"><span class="nav-number">1.3.1.</span> <span class="nav-text">为什么是GitHub Pages？</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%BA%E4%BB%80%E4%B9%88%E6%98%AFHexo%EF%BC%9F"><span class="nav-number">1.3.2.</span> <span class="nav-text">为什么是Hexo？</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%BA%E4%BB%80%E4%B9%88%E6%98%AFNexT%EF%BC%9F"><span class="nav-number">1.3.3.</span> <span class="nav-text">为什么是NexT？</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B"><span class="nav-number">2.</span> <span class="nav-text">从零开始</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#GitHub-Pages"><span class="nav-number">2.1.</span> <span class="nav-text">GitHub Pages</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%B3%A8%E5%86%8CGitHub%E8%B4%A6%E5%8F%B7"><span class="nav-number">2.1.1.</span> <span class="nav-text">注册GitHub账号</span></a></li></ol></li></ol></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%BC%80%E5%A7%8B%E5%89%8D%E7%9A%84%E4%B8%80%E4%BA%9B%E8%AF%9D"><span class="nav-number">1.</span> <span class="nav-text">开始前的一些话</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%9F"><span class="nav-number">1.1.</span> <span class="nav-text">为什么要建个人博客？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%BA%E4%BB%80%E4%B9%88%E9%80%89%E6%8B%A9%E8%87%AA%E5%BB%BA"><span class="nav-number">1.2.</span> <span class="nav-text">为什么选择自建?</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%BA%E4%BB%80%E4%B9%88%E9%80%89%E6%8B%A9%E8%BF%99%E5%A5%97%E6%8A%80%E6%9C%AF%E6%96%B9%E6%A1%88%EF%BC%9F"><span class="nav-number">1.3.</span> <span class="nav-text">为什么选择这套技术方案？</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%BA%E4%BB%80%E4%B9%88%E6%98%AF-GitHub-Pages-%EF%BC%9F"><span class="nav-number">1.3.1.</span> <span class="nav-text">为什么是 GitHub Pages ？</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%BA%E4%BB%80%E4%B9%88%E6%98%AF-Hexo-%EF%BC%9F"><span class="nav-number">1.3.2.</span> <span class="nav-text">为什么是 Hexo ？</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%BA%E4%BB%80%E4%B9%88%E6%98%AFNexT%EF%BC%9F"><span class="nav-number">1.3.3.</span> <span class="nav-text">为什么是NexT？</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B"><span class="nav-number">2.</span> <span class="nav-text">从零开始</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#GitHub-Pages"><span class="nav-number">2.1.</span> <span class="nav-text">GitHub Pages</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%B3%A8%E5%86%8C-GitHub-%E8%B4%A6%E5%8F%B7"><span class="nav-number">2.1.1.</span> <span class="nav-text">注册 GitHub 账号</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%88%9B%E5%BB%BA-GitHub-Pages"><span class="nav-number">2.1.2.</span> <span class="nav-text">创建 GitHub Pages</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Hexo"><span class="nav-number">2.2.</span> <span class="nav-text">Hexo</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AE%89%E8%A3%85"><span class="nav-number">2.2.1.</span> <span class="nav-text">安装</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%9C%AC%E5%9C%B0%E5%BB%BA%E7%AB%99"><span class="nav-number">2.2.2.</span> <span class="nav-text">本地建站</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#NexT"><span class="nav-number">2.3.</span> <span class="nav-text">NexT</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%89%A9%E5%B1%95"><span class="nav-number">2.4.</span> <span class="nav-text">扩展</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%96%87%E7%AB%A0%E4%B8%AD%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87"><span class="nav-number">2.4.1.</span> <span class="nav-text">文章中插入图片</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%96%87%E7%AB%A0%E4%B8%AD%E6%8F%92%E5%85%A5%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F"><span class="nav-number">2.4.2.</span> <span class="nav-text">文章中插入数学公式</span></a></li></ol></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 
@@ -362,20 +382,20 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">2</span>
+          <span class="site-state-item-count">4</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
             <a href="/categories/">
           
-        <span class="site-state-item-count">2</span>
+        <span class="site-state-item-count">9</span>
         <span class="site-state-item-name">分类</span></a>
       </div>
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
           
-        <span class="site-state-item-count">3</span>
+        <span class="site-state-item-count">9</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
