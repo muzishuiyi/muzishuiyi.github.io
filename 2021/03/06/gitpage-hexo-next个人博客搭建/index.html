@@ -28,8 +28,10 @@
 <meta property="og:description" content="这篇文章将分享一个从零开始的自建个人博客网站的过程。">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://muzishuiyi.github.io/2021-03-06-gitpage-hexo-next%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/image-20210306155928881.png">
+<meta property="og:image" content="https://muzishuiyi.github.io/2021-03-06-gitpage-hexo-next%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/image-20210310113319383.png">
+<meta property="og:image" content="https://muzishuiyi.github.io/2021-03-06-gitpage-hexo-next%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/image-20210310113906404.png">
 <meta property="article:published_time" content="2021-03-06T04:53:35.000Z">
-<meta property="article:modified_time" content="2021-03-08T11:32:03.855Z">
+<meta property="article:modified_time" content="2021-03-10T03:39:38.367Z">
 <meta property="article:author" content="Muzi">
 <meta property="article:tag" content="GitHub Page">
 <meta property="article:tag" content="Hexo">
@@ -229,7 +231,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2021-03-08 19:32:03" itemprop="dateModified" datetime="2021-03-08T19:32:03+08:00">2021-03-08</time>
+                <time title="修改时间：2021-03-10 11:39:38" itemprop="dateModified" datetime="2021-03-10T11:39:38+08:00">2021-03-10</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -286,6 +288,18 @@
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: &quot;[LeetCode]21.合并两个有序链表&quot;</span><br><span class="line">date: 2021-03-08 18:46:16</span><br><span class="line">mathjax: true</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
 
 <p>完成上述配置即可在网页端正常显示 Latex 公式。</p>
+<h3 id="站内文章链接"><a href="#站内文章链接" class="headerlink" title="站内文章链接"></a>站内文章链接</h3><p>如果想要在文章中链接站内的其他文章，可以采用以下格式。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% post_link 文章标题%&#125;</span><br></pre></td></tr></table></figure>
+
+<p>例如我需要在这篇文章中需要链接以下文章</p>
+<p><img src="/2021-03-06-gitpage-hexo-next%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/image-20210310113319383.png" alt="image-20210310113319383"></p>
+<p>可以在需要链接的地方插入以下内容</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% post_link leetcode21%&#125;</span><br></pre></td></tr></table></figure>
+
+<p>插入后效果如下图所示</p>
+<p><img src="/2021-03-06-gitpage-hexo-next%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/image-20210310113906404.png" alt="image-20210310113906404"></p>
+<p><strong>注意：</strong></p>
+<p>关于文章标题，这里为什么是 <code>leetcode21</code>，而不是 <code>2021-03-08-leetcode21</code>？这是因为这篇文章是使用 <code>hexo new leetcode21</code> 的命令创建的，由于之前设置了自动在创建时在标题上加入了时间，以便于本地管理，但实际上文章的标题是不包含时间的。</p>
 
     </div>
 
@@ -307,8 +321,8 @@
     <div class="post-nav">
       <div class="post-nav-item"></div>
       <div class="post-nav-item">
-    <a href="/2021/03/06/Lustre%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/" rel="next" title="[论文阅读]Lustre: A Scalable, High-Performance File System">
-      [论文阅读]Lustre: A Scalable, High-Performance File System <i class="fa fa-chevron-right"></i>
+    <a href="/2021/03/08/Hexo-Spawn-failed%E6%8A%A5%E9%94%99/" rel="next" title="Hexo部署中Spawn failed报错及其解决方案">
+      Hexo部署中Spawn failed报错及其解决方案 <i class="fa fa-chevron-right"></i>
     </a></div>
     </div>
       </footer>
@@ -368,7 +382,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%BC%80%E5%A7%8B%E5%89%8D%E7%9A%84%E4%B8%80%E4%BA%9B%E8%AF%9D"><span class="nav-number">1.</span> <span class="nav-text">开始前的一些话</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%9F"><span class="nav-number">1.1.</span> <span class="nav-text">为什么要建个人博客？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%BA%E4%BB%80%E4%B9%88%E9%80%89%E6%8B%A9%E8%87%AA%E5%BB%BA"><span class="nav-number">1.2.</span> <span class="nav-text">为什么选择自建?</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%BA%E4%BB%80%E4%B9%88%E9%80%89%E6%8B%A9%E8%BF%99%E5%A5%97%E6%8A%80%E6%9C%AF%E6%96%B9%E6%A1%88%EF%BC%9F"><span class="nav-number">1.3.</span> <span class="nav-text">为什么选择这套技术方案？</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%BA%E4%BB%80%E4%B9%88%E6%98%AF-GitHub-Pages-%EF%BC%9F"><span class="nav-number">1.3.1.</span> <span class="nav-text">为什么是 GitHub Pages ？</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%BA%E4%BB%80%E4%B9%88%E6%98%AF-Hexo-%EF%BC%9F"><span class="nav-number">1.3.2.</span> <span class="nav-text">为什么是 Hexo ？</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%BA%E4%BB%80%E4%B9%88%E6%98%AFNexT%EF%BC%9F"><span class="nav-number">1.3.3.</span> <span class="nav-text">为什么是NexT？</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B"><span class="nav-number">2.</span> <span class="nav-text">从零开始</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#GitHub-Pages"><span class="nav-number">2.1.</span> <span class="nav-text">GitHub Pages</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%B3%A8%E5%86%8C-GitHub-%E8%B4%A6%E5%8F%B7"><span class="nav-number">2.1.1.</span> <span class="nav-text">注册 GitHub 账号</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%88%9B%E5%BB%BA-GitHub-Pages"><span class="nav-number">2.1.2.</span> <span class="nav-text">创建 GitHub Pages</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Hexo"><span class="nav-number">2.2.</span> <span class="nav-text">Hexo</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AE%89%E8%A3%85"><span class="nav-number">2.2.1.</span> <span class="nav-text">安装</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%9C%AC%E5%9C%B0%E5%BB%BA%E7%AB%99"><span class="nav-number">2.2.2.</span> <span class="nav-text">本地建站</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#NexT"><span class="nav-number">2.3.</span> <span class="nav-text">NexT</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%89%A9%E5%B1%95"><span class="nav-number">2.4.</span> <span class="nav-text">扩展</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%96%87%E7%AB%A0%E4%B8%AD%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87"><span class="nav-number">2.4.1.</span> <span class="nav-text">文章中插入图片</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%96%87%E7%AB%A0%E4%B8%AD%E6%8F%92%E5%85%A5%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F"><span class="nav-number">2.4.2.</span> <span class="nav-text">文章中插入数学公式</span></a></li></ol></li></ol></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%BC%80%E5%A7%8B%E5%89%8D%E7%9A%84%E4%B8%80%E4%BA%9B%E8%AF%9D"><span class="nav-number">1.</span> <span class="nav-text">开始前的一些话</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%9F"><span class="nav-number">1.1.</span> <span class="nav-text">为什么要建个人博客？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%BA%E4%BB%80%E4%B9%88%E9%80%89%E6%8B%A9%E8%87%AA%E5%BB%BA"><span class="nav-number">1.2.</span> <span class="nav-text">为什么选择自建?</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%BA%E4%BB%80%E4%B9%88%E9%80%89%E6%8B%A9%E8%BF%99%E5%A5%97%E6%8A%80%E6%9C%AF%E6%96%B9%E6%A1%88%EF%BC%9F"><span class="nav-number">1.3.</span> <span class="nav-text">为什么选择这套技术方案？</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%BA%E4%BB%80%E4%B9%88%E6%98%AF-GitHub-Pages-%EF%BC%9F"><span class="nav-number">1.3.1.</span> <span class="nav-text">为什么是 GitHub Pages ？</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%BA%E4%BB%80%E4%B9%88%E6%98%AF-Hexo-%EF%BC%9F"><span class="nav-number">1.3.2.</span> <span class="nav-text">为什么是 Hexo ？</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%BA%E4%BB%80%E4%B9%88%E6%98%AFNexT%EF%BC%9F"><span class="nav-number">1.3.3.</span> <span class="nav-text">为什么是NexT？</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B"><span class="nav-number">2.</span> <span class="nav-text">从零开始</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#GitHub-Pages"><span class="nav-number">2.1.</span> <span class="nav-text">GitHub Pages</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%B3%A8%E5%86%8C-GitHub-%E8%B4%A6%E5%8F%B7"><span class="nav-number">2.1.1.</span> <span class="nav-text">注册 GitHub 账号</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%88%9B%E5%BB%BA-GitHub-Pages"><span class="nav-number">2.1.2.</span> <span class="nav-text">创建 GitHub Pages</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Hexo"><span class="nav-number">2.2.</span> <span class="nav-text">Hexo</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AE%89%E8%A3%85"><span class="nav-number">2.2.1.</span> <span class="nav-text">安装</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%9C%AC%E5%9C%B0%E5%BB%BA%E7%AB%99"><span class="nav-number">2.2.2.</span> <span class="nav-text">本地建站</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#NexT"><span class="nav-number">2.3.</span> <span class="nav-text">NexT</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%89%A9%E5%B1%95"><span class="nav-number">2.4.</span> <span class="nav-text">扩展</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%96%87%E7%AB%A0%E4%B8%AD%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87"><span class="nav-number">2.4.1.</span> <span class="nav-text">文章中插入图片</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%96%87%E7%AB%A0%E4%B8%AD%E6%8F%92%E5%85%A5%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F"><span class="nav-number">2.4.2.</span> <span class="nav-text">文章中插入数学公式</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%AB%99%E5%86%85%E6%96%87%E7%AB%A0%E9%93%BE%E6%8E%A5"><span class="nav-number">2.4.3.</span> <span class="nav-text">站内文章链接</span></a></li></ol></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 
@@ -382,20 +396,20 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">5</span>
+          <span class="site-state-item-count">2</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
             <a href="/categories/">
           
-        <span class="site-state-item-count">9</span>
+        <span class="site-state-item-count">2</span>
         <span class="site-state-item-name">分类</span></a>
       </div>
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
           
-        <span class="site-state-item-count">9</span>
+        <span class="site-state-item-count">3</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
